@@ -19,6 +19,23 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql : true
+
+  mail:
+    host: smtp.gmail.com
+    password: <>
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: <>
+accessKey : <>
+secret : <>
+bucketName : hisbucket1
+region : ap-southeast-1
+ 
   
 eureka:
   client:
